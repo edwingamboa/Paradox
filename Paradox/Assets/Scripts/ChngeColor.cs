@@ -3,11 +3,8 @@ using System.Collections;
 
 public class ChngeColor : MonoBehaviour {
 
-    void Update()
+    public void ChangeColor()
     {
-        if (Cardboard.SDK.Triggered)
-        {
-            GetComponent<Renderer>().material.color = Color.green;
-        }
+        GetComponent<Renderer>().material.color = Color.green;
     }
 }
