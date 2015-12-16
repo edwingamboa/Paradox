@@ -65,10 +65,8 @@
      <Compile Include="Assets\Scripts\CharacterMotor.cs" />
      <Compile Include="Assets\Scripts\ChngeColor.cs" />
      <Compile Include="Assets\Scripts\FPSInputController.cs" />
+     <Compile Include="Assets\Scripts\MovementController.cs" />
      <Compile Include="Assets\Scripts\ObjectController.cs" />
-     <Compile Include="Assets\Scripts\PickUpController.cs" />
-     <Compile Include="Assets\Scripts\PlayerController.cs" />
-     <Compile Include="Assets\Scripts\Rotator.cs" />
      <None Include="Assets\Cardboard\Resources\SkyboxMesh.shader" />
      <None Include="Assets\Cardboard\Distortion\CardboardDistortion.cginc" />
      <None Include="Assets\Cardboard\Resources\UnlitTexture.shader" />
