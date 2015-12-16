@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class Timer : MonoBehaviour {
-    public int minutes = 0;
+    public int minutes = 5;
     public float seconds = 0.0f;
     TextMesh tm;
 
