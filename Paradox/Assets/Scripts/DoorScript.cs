@@ -7,7 +7,7 @@ public class DoorScript : MonoBehaviour {
     public float openAngle;
     public float closeAngle;
     public float smooth;
-    private bool isLookedAt;
+    public bool isLookedAt;
     private float delay = 0.0f;
 
 	void Start () {
@@ -24,19 +24,10 @@ public class DoorScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {      
-        if (isLookedAt && Time.time > delay && playerController.pickedItems >= 3)
+        if (playerController.pickedItems >= 5)
         {
             OpenDoor();
-        }
-        // currently looking at object
-        else if (isLookedAt)
-        {            
-        }
-        // not looking at object
-        else if (!isLookedAt)
-        {            
-            delay = Time.time + 2.0f;
-        }
+        }        
 	}  
 
     public void CloseDoor()

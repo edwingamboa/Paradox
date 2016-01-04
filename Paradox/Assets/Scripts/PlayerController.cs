@@ -8,7 +8,7 @@ public class PlayerController : MonoBehaviour {
     public bool move;
     private CardboardHead head;
     public int pickedItems;
-    public Text countText; 
+    public TextMesh countText; 
 
     void Start()
     {
@@ -40,6 +40,6 @@ public class PlayerController : MonoBehaviour {
 
     void updateCountText()
     {
-        countText.text = "Count: " + pickedItems.ToString();
+        countText.text = "Items: " + pickedItems.ToString() + "/5";
     }
 }
