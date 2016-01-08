@@ -583,7 +583,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 6
   m_Type: 1
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Color: {r: 0.33088237, g: 0.18977077, b: 0.18977077, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -682,7 +682,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 648250201fabe574b8591ee45cddcf4a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -14.8
+      value: -16.91
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 648250201fabe574b8591ee45cddcf4a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -836,15 +836,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 497602, guid: a96df359b438e7d41bfde06fc1e714d7, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -.693000019
+      value: -0.693
       objectReference: {fileID: 0}
     - target: {fileID: 497602, guid: a96df359b438e7d41bfde06fc1e714d7, type: 2}
       propertyPath: m_LocalPosition.y
-      value: .400000006
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 497602, guid: a96df359b438e7d41bfde06fc1e714d7, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -5.13399982
+      value: -7.32
       objectReference: {fileID: 0}
     - target: {fileID: 497602, guid: a96df359b438e7d41bfde06fc1e714d7, type: 2}
       propertyPath: m_LocalRotation.x
@@ -868,15 +868,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 497602, guid: a96df359b438e7d41bfde06fc1e714d7, type: 2}
       propertyPath: m_LocalScale.x
-      value: .0500000007
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 497602, guid: a96df359b438e7d41bfde06fc1e714d7, type: 2}
       propertyPath: m_LocalScale.y
-      value: .0500000007
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 497602, guid: a96df359b438e7d41bfde06fc1e714d7, type: 2}
       propertyPath: m_LocalScale.z
-      value: .0500000007
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 100864, guid: a96df359b438e7d41bfde06fc1e714d7, type: 2}
       propertyPath: m_Name
@@ -931,6 +931,34 @@ Prefab:
     - target: {fileID: 11409892, guid: 2cbb3021b34d11046b72275808132164, type: 2}
       propertyPath: minutes
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2079360, guid: 2cbb3021b34d11046b72275808132164, type: 2}
+      propertyPath: m_ClearFlags
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2079360, guid: 2cbb3021b34d11046b72275808132164, type: 2}
+      propertyPath: m_BackGroundColor.r
+      value: 0.000054065848
+      objectReference: {fileID: 0}
+    - target: {fileID: 2079360, guid: 2cbb3021b34d11046b72275808132164, type: 2}
+      propertyPath: m_BackGroundColor.g
+      value: 0.0028925198
+      objectReference: {fileID: 0}
+    - target: {fileID: 2079360, guid: 2cbb3021b34d11046b72275808132164, type: 2}
+      propertyPath: m_BackGroundColor.b
+      value: 0.007352948
+      objectReference: {fileID: 0}
+    - target: {fileID: 463502, guid: 2cbb3021b34d11046b72275808132164, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 10232656, guid: 2cbb3021b34d11046b72275808132164, type: 2}
+      propertyPath: m_Color.rgba
+      value: 4278190335
+      objectReference: {fileID: 0}
+    - target: {fileID: 10211114, guid: 2cbb3021b34d11046b72275808132164, type: 2}
+      propertyPath: m_Color.rgba
+      value: 4278190335
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2cbb3021b34d11046b72275808132164, type: 2}
@@ -1184,6 +1212,20 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0074470895ee3494d9bb7af6c7c91ba9, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1357297565 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 156468, guid: 2989a22604c132d4d845a85f491832fa, type: 2}
+  m_PrefabInternal: {fileID: 1134374823}
+--- !u!154 &1357297571
+TerrainCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1357297565}
+  m_Material: {fileID: 0}
+  m_Enabled: 1
+  m_TerrainData: {fileID: 15600000, guid: 7ba672fc7b1fe3c4c890129842090c97, type: 2}
+  m_EnableTreeColliders: 1
 --- !u!1001 &1508785395
 Prefab:
   m_ObjectHideFlags: 0
