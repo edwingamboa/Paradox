@@ -338,7 +338,7 @@ Transform:
   m_GameObject: {fileID: 141024}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -12.68, y: 0.1, z: -16.99}
-  m_LocalScale: {x: 1.0039146, y: 0.8806624, z: 1.0876083}
+  m_LocalScale: {x: 1.0039146, y: 1.2, z: 1.0876083}
   m_Children:
   - {fileID: 452696}
   - {fileID: 463908}
@@ -564,8 +564,8 @@ Camera:
   m_GameObject: {fileID: 111014}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 1}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.000054065848, g: 0.0028925198, b: 0.007352948, a: 1}
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -683,7 +683,7 @@ TextMesh:
   m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
   m_Color:
     serializedVersion: 2
-    rgba: 4278190080
+    rgba: 4278190335
 --- !u!102 &10232656
 TextMesh:
   serializedVersion: 3
@@ -704,7 +704,7 @@ TextMesh:
   m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
   m_Color:
     serializedVersion: 2
-    rgba: 4278190080
+    rgba: 4278190335
 --- !u!114 &11403010
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -743,7 +743,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7744f734f1f592449887692b1171147e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minutes: 1
+  minutes: 2
   seconds: 0
 --- !u!114 &11425280
 MonoBehaviour:
