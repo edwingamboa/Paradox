@@ -87,10 +87,15 @@
      <None Include="Assets\ZGONAssets\Shared\Shaders\ZGONBumpedDetailSpec_01.shader" />
      <None Include="Assets\Cardboard\Distortion\CardboardDistortion.cginc" />
      <None Include="Assets\Cardboard\Resources\UnlitTexture.shader" />
+     <None Include="Assets\Wrench\Shaders\Shader_DX9.shader" />
+     <None Include="Assets\Damaged_old_car\readme.txt" />
      <None Include="Assets\ZGONAssets\Modern_ConcreteBuildingExt_01\readme.txt" />
+     <None Include="Assets\Wrench\Shaders\Shader_DX11.shader" />
+     <None Include="Assets\3DForge\Fantasy_Interiors\Villages_&amp;_Towns\Documents\Village Interiors User Guid v1.3.txt" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\ZGONAssets\Modern_ConcreteBuildingExt_01\Modern_ConcreteBuildingExt_01.xml" />
+     <None Include="Assets\Mobile_Citizen_Human&amp;Zombie_free\ArtResources\Shader\CharacterShader_mobile.shader" />
      <None Include="Assets\Door\license.txt" />
      <None Include="Assets\Cardboard\Resources\RadialUndistortionEffect.shader" />
      <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
