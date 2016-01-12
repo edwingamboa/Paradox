@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1772484567, guid: e20699a64490c4e4284b27a8aeb05666, type: 3}
+  m_Name: Grunge overlay
+  m_EditorClassIdentifier: 
+  overlayName: 4772756e6765206f7665726c6179
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  rect:
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  textureList:
+  - {fileID: 2800000, guid: 1fe6c1d5a9364134db36434e6836be74, type: 3}
+  - {fileID: 2800000, guid: d7a1e18f9bcf79044a33e348e9d88800, type: 3}
+  channelMask: []
+  channelAdditiveMask: []
+  tags: []
