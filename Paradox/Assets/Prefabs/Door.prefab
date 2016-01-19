@@ -26,9 +26,9 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 122708}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.42999983, y: 1.10000002, z: -16.75}
-  m_LocalScale: {x: 1.70000005, y: 2, z: .100000001}
+  m_LocalRotation: {x: 0, y: .707106829, z: 0, w: .707106709}
+  m_LocalPosition: {x: 6.75299931, y: 5.25060606, z: -3.88673687}
+  m_LocalScale: {x: 2.20558333, y: 3.46060324, z: .100000009}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -91,8 +91,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 11493320}
-          m_MethodName: SetGazedAt
+        - m_Target: {fileID: 11500000, guid: 435b47014cc15fc40bf14a9731215ad9, type: 3}
+          m_MethodName: 
           m_Mode: 6
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -108,8 +108,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 11493320}
-          m_MethodName: SetGazedAt
+        - m_Target: {fileID: 11500000, guid: 435b47014cc15fc40bf14a9731215ad9, type: 3}
+          m_MethodName: 
           m_Mode: 6
           m_Arguments:
             m_ObjectArgument: {fileID: 0}

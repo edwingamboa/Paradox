@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-using UnityEngine.SceneManagement;
+//using UnityEngine.SceneManagement;
 
 public class Timer : MonoBehaviour {
     public int minutes = 2;
@@ -35,6 +35,6 @@ public class Timer : MonoBehaviour {
     }
 
     void GameOver() {
-        SceneManager.LoadScene("GameOver");
+        //SceneManager.LoadScene("GameOver");
     }
 }
