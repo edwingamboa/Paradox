@@ -78,11 +78,13 @@
      <Compile Include="Assets\Scripts\ChngeColor.cs" />
      <Compile Include="Assets\Scripts\DoorScript.cs" />
      <Compile Include="Assets\Scripts\FPSInputController.cs" />
+     <Compile Include="Assets\Scripts\LightElectricalShockController.cs" />
      <Compile Include="Assets\Scripts\ObjectController.cs" />
      <Compile Include="Assets\Scripts\PickUpController.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\Rotator.cs" />
      <Compile Include="Assets\Scripts\Timer.cs" />
+     <Compile Include="Assets\Scripts\TriggerSoundController.cs" />
      <Compile Include="Assets\shader.cs" />
      <None Include="Assets\Cardboard\Resources\SkyboxMesh.shader" />
      <None Include="Assets\ZGONAssets\Shared\Shaders\ZGONBumpedDetailSpec_01.shader" />
@@ -135,6 +137,10 @@
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{81680AF6-8745-1663-55BD-8B5EC5F70092}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
