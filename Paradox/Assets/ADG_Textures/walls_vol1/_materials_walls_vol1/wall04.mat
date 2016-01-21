@@ -19,7 +19,7 @@ Material:
         first:
           name: _MainTex
         second:
-          m_Texture: {fileID: 2800000, guid: 2a681bf3b6783434db82bcad6167594b, type: 3}
+          m_Texture: {fileID: 2800000, guid: 3ba76ecbddd404a1ba9efe7add949ef4, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -119,7 +119,7 @@ Material:
       data:
         first:
           name: _Parallax
-        second: 0.008358208
+        second: 0.005
       data:
         first:
           name: _ZWrite
@@ -127,7 +127,7 @@ Material:
       data:
         first:
           name: _Glossiness
-        second: 0.3
+        second: 0
       data:
         first:
           name: _BumpScale
@@ -156,6 +156,18 @@ Material:
         first:
           name: _EmissionScaleUI
         second: 0
+      data:
+        first:
+          name: _ShadeRange
+        second: 0.02
+      data:
+        first:
+          name: _ShadingStrength
+        second: 0
+      data:
+        first:
+          name: _RMS
+        second: 0.20974624
       data:
         first:
           name: _distance_start
@@ -202,20 +214,8 @@ Material:
         second: 8
       data:
         first:
-          name: _ShadeRange
-        second: 0.02
-      data:
-        first:
-          name: _ShadingStrength
-        second: 0
-      data:
-        first:
           name: _SHADOW_SMOOTH_STEPS
         second: 4
-      data:
-        first:
-          name: _RMS
-        second: 0.20974624
       data:
         first:
           name: _SidewallTextureOffset
@@ -248,7 +248,7 @@ Material:
       data:
         first:
           name: _Color
-        second: {r: 0.61194026, g: 0.61194026, b: 0.61194026, a: 1}
+        second: {r: 0, g: 0, b: 0, a: 1}
       data:
         first:
           name: _SpecColor

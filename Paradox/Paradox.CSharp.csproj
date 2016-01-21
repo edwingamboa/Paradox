@@ -112,11 +112,14 @@
     <Compile Include="Assets\Scripts\DoorCloset.cs" />
     <Compile Include="Assets\Scripts\DoorScript.cs" />
     <Compile Include="Assets\Scripts\FPSInputController.cs" />
+    <Compile Include="Assets\Scripts\Intro\TriggerExit.cs" />
+    <Compile Include="Assets\Scripts\Intro\TriggerPlay.cs" />
     <Compile Include="Assets\Scripts\LightElectricalShockController.cs" />
     <Compile Include="Assets\Scripts\ObjectController.cs" />
     <Compile Include="Assets\Scripts\PickUpController.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\Rotator.cs" />
+    <Compile Include="Assets\Scripts\TVScript.cs" />
     <Compile Include="Assets\Scripts\Timer.cs" />
     <Compile Include="Assets\Scripts\TriggerSoundController.cs" />
     <Compile Include="Assets\Scripts\Triggers\Closet\TriggerBody.cs" />
@@ -125,6 +128,7 @@
     <Compile Include="Assets\Scripts\Triggers\Closet\TriggerRedLight.cs" />
     <Compile Include="Assets\Scripts\Triggers\Closet\TriggerSound.cs" />
     <Compile Include="Assets\Scripts\Triggers\Garage\TriggerOpenDoor.cs" />
+    <Compile Include="Assets\Scripts\Triggers\TriggerChangeScene.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\3DForge\Fantasy_Interiors\Villages_&amp;_Towns\Documents\Village Interiors User Guid v1.3.txt" />
