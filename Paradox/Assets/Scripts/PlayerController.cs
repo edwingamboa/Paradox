@@ -2,7 +2,8 @@
 using UnityEngine.UI;
 using System.Collections;
 
-public class PlayerController : MonoBehaviour {
+public class PlayerController : MonoBehaviour
+{
 
     public float speed;
     public float interactDistance = 2f;
@@ -12,6 +13,7 @@ public class PlayerController : MonoBehaviour {
     public TextMesh countText;
     public float seconds = 0.0f;
     private AudioSource audio;
+    private float delay = 2f;
 
     void Start()
     {
@@ -32,8 +34,9 @@ public class PlayerController : MonoBehaviour {
             Vector3 direction = new Vector3(head.transform.forward.x, 0, head.transform.forward.z).normalized
                 * speed * Time.deltaTime;
             Quaternion rotation = Quaternion.Euler(new Vector3(0, -transform.rotation.eulerAngles.y, 0));
-            transform.Translate(rotation * direction); 
-            if(Time.time >= seconds && !audio.isPlaying){
+            transform.Translate(rotation * direction);
+            if (Time.time >= seconds && !audio.isPlaying)
+            {
                 audio.volume = Random.Range(0.8f, 1);
                 audio.pitch = Random.Range(0.8f, 1.1f);
                 audio.Play();
@@ -47,8 +50,14 @@ public class PlayerController : MonoBehaviour {
         {
             if (hit.collider.CompareTag("PickUp"))
             {
+                delay -= Time.deltaTime;
+                hit.collider.gameObject.GetComponent<Light>().intensity = 6f;
+            }
+            if (hit.collider.CompareTag("PickUp") && delay <= 0)
+            {
                 hit.collider.gameObject.SetActive(false);
                 increasePickedUpItems();
+                delay = 1f;
             }
         }
 

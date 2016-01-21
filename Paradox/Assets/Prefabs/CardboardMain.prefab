@@ -273,7 +273,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 191072}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: .802999973}
+  m_LocalPosition: {x: 0, y: 0, z: 0.803}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 477040}
@@ -301,7 +301,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 126518}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.0299999993, y: -0, z: -0}
+  m_LocalPosition: {x: -0.03, y: -0, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 479246}
@@ -313,8 +313,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 110556}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.3972075, y: 2.81999993, z: 17.42836}
-  m_LocalScale: {x: .996100664, y: 1.13550889, z: .919448614}
+  m_LocalPosition: {x: -1.3972075, y: 2.82, z: 17.42836}
+  m_LocalScale: {x: 0.99610066, y: 1.1355089, z: 0.9194486}
   m_Children:
   - {fileID: 464826}
   - {fileID: 485734}
@@ -327,7 +327,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 151024}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .0299999993, y: 0, z: 0}
+  m_LocalPosition: {x: 0.03, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 479246}
@@ -338,9 +338,9 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 141024}
-  m_LocalRotation: {x: 0, y: -.748379707, z: 0, w: .663270533}
-  m_LocalPosition: {x: 3.42000008, y: 2.17000008, z: -3.69000006}
-  m_LocalScale: {x: 1.00391459, y: 1.19597089, z: 1.08760834}
+  m_LocalRotation: {x: 0, y: -0.7483797, z: 0, w: 0.66327053}
+  m_LocalPosition: {x: 3.42, y: 2.17, z: -3.69}
+  m_LocalScale: {x: 1.0039146, y: 1.1959709, z: 1.0876083}
   m_Children:
   - {fileID: 452696}
   - {fileID: 463908}
@@ -367,8 +367,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 137910}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .561999977, y: -1.70200002, z: -19}
-  m_LocalScale: {x: .150000006, y: .150000006, z: 1}
+  m_LocalPosition: {x: 0.562, y: -1.702, z: -19}
+  m_LocalScale: {x: 0.15, y: 0.15, z: 1}
   m_Children: []
   m_Father: {fileID: 458102}
   m_RootOrder: 0
@@ -392,7 +392,7 @@ Transform:
   m_GameObject: {fileID: 196196}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: .100000001, y: .100000001, z: .100000001}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children: []
   m_Father: {fileID: 438994}
   m_RootOrder: 0
@@ -417,8 +417,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 118582}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.00500011, y: -1.70200002, z: -19}
-  m_LocalScale: {x: .150000006, y: .150000006, z: 1}
+  m_LocalPosition: {x: 2.005, y: -1.702, z: -19}
+  m_LocalScale: {x: 0.15, y: 0.15, z: 1}
   m_Children: []
   m_Father: {fileID: 458102}
   m_RootOrder: 1
@@ -431,14 +431,14 @@ Camera:
   m_Enabled: 0
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: .192156866, g: .301960796, b: .474509805, a: 1}
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 1}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: .5
+    x: 0.5
     y: 0
-    width: .5
+    width: 0.5
     height: 1
-  near clip plane: .300000012
+  near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
   orthographic: 0
@@ -454,7 +454,7 @@ Camera:
   m_HDR: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
-  m_StereoSeparation: .0219999999
+  m_StereoSeparation: 0.022
   m_StereoMirrorMode: 0
 --- !u!20 &2025468
 Camera:
@@ -472,11 +472,11 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: .300000012
+  near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: .5
+  orthographic size: 0.5
   m_Depth: 100
   m_CullingMask:
     serializedVersion: 2
@@ -488,7 +488,7 @@ Camera:
   m_HDR: 0
   m_OcclusionCulling: 0
   m_StereoConvergence: 10
-  m_StereoSeparation: .0219999999
+  m_StereoSeparation: 0.022
   m_StereoMirrorMode: 0
 --- !u!20 &2070426
 Camera:
@@ -499,14 +499,14 @@ Camera:
   m_Enabled: 0
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: .192156866, g: .301960796, b: .474509805, a: 1}
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 1}
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
     y: 0
-    width: .5
+    width: 0.5
     height: 1
-  near clip plane: .300000012
+  near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
   orthographic: 0
@@ -522,7 +522,7 @@ Camera:
   m_HDR: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
-  m_StereoSeparation: .0219999999
+  m_StereoSeparation: 0.022
   m_StereoMirrorMode: 0
 --- !u!20 &2073712
 Camera:
@@ -540,7 +540,7 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: .300000012
+  near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
   orthographic: 0
@@ -556,7 +556,7 @@ Camera:
   m_HDR: 0
   m_OcclusionCulling: 0
   m_StereoConvergence: 10
-  m_StereoSeparation: .0219999999
+  m_StereoSeparation: 0.022
   m_StereoMirrorMode: 0
 --- !u!20 &2079360
 Camera:
@@ -567,14 +567,14 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 5.40658475e-05, g: .00289251981, b: .00735294819, a: 1}
+  m_BackGroundColor: {r: 0.000054065848, g: 0.0028925198, b: 0.007352948, a: 1}
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
     y: 0
     width: 1
     height: 1
-  near clip plane: .300000012
+  near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
   orthographic: 0
@@ -590,7 +590,7 @@ Camera:
   m_HDR: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
-  m_StereoSeparation: .0219999999
+  m_StereoSeparation: 0.022
   m_StereoMirrorMode: 0
 --- !u!23 &2381670
 MeshRenderer:
@@ -610,8 +610,10 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -634,8 +636,10 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
@@ -687,6 +691,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
+    m_RotationOrder: 4
   panLevelCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -697,6 +702,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
+    m_RotationOrder: 0
   spreadCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -707,6 +713,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
+    m_RotationOrder: 4
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -717,6 +724,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!92 &9220708
 Behaviour:
   m_ObjectHideFlags: 1
@@ -811,7 +819,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7744f734f1f592449887692b1171147e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minutes: 2
+  minutes: 3
   seconds: 0
 --- !u!114 &11425280
 MonoBehaviour:
@@ -929,7 +937,7 @@ MonoBehaviour:
   centerOfInterest: {fileID: 0}
   radiusOfInterest: 0
   checkStereoComfort: 1
-  stereoAdjustSmoothing: .100000001
+  stereoAdjustSmoothing: 0.1
   screenParallax: 0
   stereoPaddingX: 0
   stereoPaddingY: 0
@@ -979,6 +987,7 @@ MonoBehaviour:
         tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
     maxGroundAcceleration: 30
     maxAirAcceleration: 20
     gravity: 5000
@@ -986,9 +995,9 @@ MonoBehaviour:
   jumping:
     enabled: 0
     baseHeight: 1
-    extraHeight: 4.0999999
+    extraHeight: 4.1
     perpAmount: 0
-    steepPerpAmount: .5
+    steepPerpAmount: 0.5
   movingPlatform:
     enabled: 1
     movementTransfer: 2
@@ -996,7 +1005,7 @@ MonoBehaviour:
     enabled: 1
     slidingSpeed: 15
     sidewaysControl: 1
-    speedControl: .400000006
+    speedControl: 0.4
 --- !u!124 &12417114
 Behaviour:
   m_ObjectHideFlags: 1
@@ -1027,10 +1036,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .5
+  m_Radius: 0.5
   m_Height: 2.5
   m_Direction: 1
-  m_Center: {x: 0, y: -.899999976, z: 0}
+  m_Center: {x: 0, y: -0.9, z: 0}
 --- !u!143 &14306266
 CharacterController:
   m_ObjectHideFlags: 1
@@ -1042,12 +1051,12 @@ CharacterController:
   m_Enabled: 1
   serializedVersion: 2
   m_Height: 2.5
-  m_Radius: .5
+  m_Radius: 0.5
   m_SlopeLimit: 45
-  m_StepOffset: .300000012
-  m_SkinWidth: .0799999982
-  m_MinMoveDistance: .00100000005
-  m_Center: {x: 0, y: -.899999976, z: 0}
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: -0.9, z: 0}
 --- !u!212 &21274532
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -1066,14 +1075,18 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_AutoUVMaxDistance: .5
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 9c5baf8d63c85254b9a994d61090a00e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

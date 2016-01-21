@@ -7,6 +7,6 @@ public class TriggerPlay : MonoBehaviour {
     void OnTriggerEnter(Collider other)
     {
        // Application.LoadLevel("Garage");
-        SceneManager.LoadScene("Garage");
+        SceneManager.LoadScene("BedroomandBathroom");
     }
 }
