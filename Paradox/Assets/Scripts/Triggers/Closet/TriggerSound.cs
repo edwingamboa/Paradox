@@ -1,10 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class TriggerKillYouSound : MonoBehaviour {
+public class TriggerSound : MonoBehaviour {
 
     void OnTriggerEnter(Collider other)
     {
-        this.GetComponent<AudioSource>().Play();
+        GetComponent<AudioSource>().Play();
     }
 }

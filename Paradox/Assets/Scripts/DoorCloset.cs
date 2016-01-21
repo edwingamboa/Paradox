@@ -7,8 +7,7 @@ public class DoorCloset : MonoBehaviour {
     private float smooth;
     public CardboardHead head;
     private float interactDistance = 3f;
-
-
+    public GameObject Light;
 
     void Start()
     {
@@ -29,6 +28,10 @@ public class DoorCloset : MonoBehaviour {
             if (hit.collider.CompareTag("Closet"))
             {
                 OpenDoor();
+                if ((int)transform.localEulerAngles.y == 180)
+                {
+                    Light.SetActive(true);
+                }
             }
         }
 

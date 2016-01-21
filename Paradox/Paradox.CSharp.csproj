@@ -120,7 +120,9 @@
     <Compile Include="Assets\Scripts\Timer.cs" />
     <Compile Include="Assets\Scripts\TriggerSoundController.cs" />
     <Compile Include="Assets\Scripts\Triggers\Closet\TriggerCloset.cs" />
-    <Compile Include="Assets\Scripts\Triggers\Closet\TriggerKillYouSound.cs" />
+    <Compile Include="Assets\Scripts\Triggers\Closet\TriggerEffect.cs" />
+    <Compile Include="Assets\Scripts\Triggers\Closet\TriggerSound.cs" />
+    <Compile Include="Assets\Scripts\Triggers\Garage\TriggerOpenDoor.cs" />
     <Compile Include="Assets\shader.cs" />
   </ItemGroup>
   <ItemGroup>
