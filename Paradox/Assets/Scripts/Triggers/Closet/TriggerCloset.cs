@@ -3,12 +3,6 @@ using System.Collections;
 
 public class TriggerCloset : MonoBehaviour {
     public GameObject DoorCloset;
-    public GameObject Body;
-
-    void OnTriggerEnter(Collider other)
-    {
-        Body.GetComponent<AudioSource>().Play();
-    }
 
     void OnTriggerStay() {
         OpenDoor();

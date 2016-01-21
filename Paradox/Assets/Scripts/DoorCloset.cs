@@ -39,7 +39,7 @@ public class DoorCloset : MonoBehaviour {
 
     public void OpenDoor()
     {
-        Quaternion targetRotation = Quaternion.Euler(0, angle, 0);
+        Quaternion targetRotation = Quaternion.Euler(0, 0, 0);
         transform.localRotation = Quaternion.Slerp(transform.localRotation,
             targetRotation, smooth * Time.deltaTime);
     }
