@@ -4,7 +4,6 @@ using System.Collections;
 public class DoorCellar : MonoBehaviour
 {
 
-    public PlayerController playerController;
     public float openAngle;
     public float closeAngle;
     public float smooth;
@@ -48,7 +47,7 @@ public class DoorCellar : MonoBehaviour
             {
                 this.GetComponent<BoxCollider>().enabled = true;
                 OpenDoor();
-                if ((int)transform.localEulerAngles.x == 270 && (int)transform.localEulerAngles.y == 0 && (int)transform.localEulerAngles.z == 0)
+                if ((int)transform.localEulerAngles.x == 270)
                 {
                     this.GetComponent<BoxCollider>().enabled = false;
                     PickUpCellar.GetComponent<Collider>().enabled = true;

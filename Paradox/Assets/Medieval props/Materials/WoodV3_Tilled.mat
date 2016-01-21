@@ -73,14 +73,14 @@ Material:
           m_Offset: {x: 0, y: 0}
       data:
         first:
-          name: _MetallicGlossMap
+          name: _SpecGlossMap
         second:
           m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
         first:
-          name: _SpecGlossMap
+          name: _MetallicGlossMap
         second:
           m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
@@ -97,11 +97,11 @@ Material:
       data:
         first:
           name: _Cutoff
-        second: .5
+        second: 0.5
       data:
         first:
           name: _Parallax
-        second: .0149999997
+        second: 0.015
       data:
         first:
           name: _ZWrite
@@ -109,15 +109,15 @@ Material:
       data:
         first:
           name: _Glossiness
-        second: .5
+        second: 0.5
       data:
         first:
           name: _BumpScale
-        second: .360000014
+        second: 0.36
       data:
         first:
           name: _OcclusionStrength
-        second: .150000006
+        second: 0.15
       data:
         first:
           name: _DetailNormalMapScale
@@ -132,11 +132,11 @@ Material:
         second: 0
       data:
         first:
-          name: _Metallic
+          name: _EmissionScaleUI
         second: 0
       data:
         first:
-          name: _EmissionScaleUI
+          name: _Metallic
         second: 0
     m_Colors:
       data:
@@ -146,11 +146,11 @@ Material:
       data:
         first:
           name: _Color
-        second: {r: .544117689, g: .52116102, b: .492106438, a: 1}
+        second: {r: 0.46274513, g: 0.43529415, b: 0.23529413, a: 1}
       data:
         first:
           name: _SpecColor
-        second: {r: .200000003, g: .200000003, b: .200000003, a: 1}
+        second: {r: 0.2, g: 0.2, b: 0.2, a: 1}
       data:
         first:
           name: _EmissionColorUI
