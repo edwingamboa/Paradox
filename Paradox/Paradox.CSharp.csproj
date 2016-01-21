@@ -125,7 +125,6 @@
     <Compile Include="Assets\Scripts\Triggers\Closet\TriggerRedLight.cs" />
     <Compile Include="Assets\Scripts\Triggers\Closet\TriggerSound.cs" />
     <Compile Include="Assets\Scripts\Triggers\Garage\TriggerOpenDoor.cs" />
-    <Compile Include="Assets\shader.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\3DForge\Fantasy_Interiors\Villages_&amp;_Towns\Documents\Village Interiors User Guid v1.3.txt" />
