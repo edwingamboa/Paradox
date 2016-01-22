@@ -1,12 +1,13 @@
 ﻿using UnityEngine;
+#if UNITY_EDITOR
 using UnityEditor;
 
 [CustomPropertyDrawer (typeof (MinMaxSliderAttribute))]
 class MinMaxSliderDrawer : PropertyDrawer {
-	
-	public override void OnGUI (Rect position, SerializedProperty property, GUIContent label) {
-		
-		if (property.propertyType == SerializedPropertyType.Vector2)
+
+    public override void OnGUI (Rect position, SerializedProperty property, GUIContent label) {
+
+        if (property.propertyType == SerializedPropertyType.Vector2)
 		{
 			Vector2 range 	= property.vector2Value;
 			float min 		= range.x;
@@ -29,5 +30,7 @@ class MinMaxSliderDrawer : PropertyDrawer {
 		} else {
 			EditorGUI.LabelField (position, label, "Use only with Vector2"); 
 		}
-	}
+
+    }
 }
+#endif

@@ -6,9 +6,9 @@ public class LightElectricalShockController : MonoBehaviour {
     public float minTime = 1f;
     public float maxTime = 5f;
     float timer;
-    Light light;
+    new Light light;
 
-	void Start () {
+    void Start () {
         light = GetComponent<Light>();
         timer = Random.Range(minTime, maxTime);
 	}

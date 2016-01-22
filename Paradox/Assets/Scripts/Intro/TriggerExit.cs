@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 
-
 public class TriggerExit : MonoBehaviour {
 
     void OnTriggerEnter(Collider other)

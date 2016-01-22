@@ -12,7 +12,7 @@ public class PlayerController : MonoBehaviour
     public int pickedItems;
     public TextMesh countText;
     public float seconds = 0.0f;
-    private AudioSource audio;
+    private new AudioSource audio;
     private float delay = 2f;
 
     void Start()

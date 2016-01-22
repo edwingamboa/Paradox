@@ -8,7 +8,7 @@ public class TriggerChangeScene : MonoBehaviour {
 
     void OnTriggerEnter(Collider other)
     {
-        // Application.LoadLevel("Garage");
-        SceneManager.LoadScene(Scene);
+        Application.LoadLevel(Scene);
+        //SceneManager.LoadScene(Scene);
     }
 }
